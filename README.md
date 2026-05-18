@@ -92,3 +92,13 @@ python llmx.py
 
 Note : Cloudeflare protection can be hindered on firefox cause the gecko drivers are easily detected but gemini and grok works fine though you may have issues with claude and chatGPT
 but use can try different flags in the firefox section of the script to tweak settings.
+
+# Known Limitations
+
+- AI providers frequently update their HTML structure.
+- Selectors may occasionally require updates.
+
+# Disclaimer
+
+This project automates browser interaction with third-party AI services. This project was made by me only for education purpose  
+Please use responsibly and in accordance with the Terms of Service of each platform.

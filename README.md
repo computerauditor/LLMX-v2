@@ -1,11 +1,61 @@
 # LLMX-v2
 An AI council powered by llmx v2 - Chat with Claude, ChatGPT, Grok, Gemini all at once, NO extra API COST , fully rendering your own profiles seamlessly inside a GUI window of which you have full control
 
-# Set up [Linux Envirnment similar for Windows also]
+<img width="1919" height="956" alt="Screenshot From 2026-05-19 01-27-58" src="https://github.com/user-attachments/assets/26fc2252-ce53-44a0-b906-1862de360dac" />
+
+# Installation 
+
+1. Clone the repo
+```
+git clone https://github.com/computerauditor/LLMX-v2/
+```
+
+#  SET UP [Linux Envirnment similar for Windows also]
+
+2. Create virtual environment [OPTIONAL but recommended]
+
+Linux / macOS :
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+Windows : 
+```
+python -m venv venv
+venv\Scripts\activate
+```
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+Webdriver Setup
+
+Place your GeckoDriver[For FireFox] binary inside:
+```
+webdrivers/geckodriver
+```
+Linux users may need to give permission to the webdrivers by :
+
+FireFox
+```
+chmod +x webdrivers/geckodriver
+```
+Chrome
+```
+chmod +x webdrivers/chromedriver
+```
+
+Download GeckoDriver:
+```
+https://github.com/mozilla/geckodriver/releases
+```
 
 ## Note : Do not forget to change the webdrivers & profile path in the script
+Update these paths in main.py:
 
-<img width="1919" height="950" alt="Screenshot From 2026-05-19 01-24-10" src="https://github.com/user-attachments/assets/8c1aca93-3605-421f-a992-2088f4ace11c" />
+REAL_CHROME_PROFILE = "/path/to/chrome/profile"
+REAL_FIREFOX_PROFILE = "/path/to/firefox/profile"
 
 # ChromeDrivers
 

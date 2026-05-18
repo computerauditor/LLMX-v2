@@ -1,9 +1,11 @@
 # LLMX-v2
-v2 of LLMX chat with gemini , claude , grok , chatgpt all at once, NO API COST , fully rendering your own profiles seamlessly inside a GUI window of which you have full control
+An AI council powered by llmx v2 - Chat with Claude, ChatGPT, Grok, Gemini all at once, NO extra API COST , fully rendering your own profiles seamlessly inside a GUI window of which you have full control
 
-### Set up [Linux Envirnment similar for Windows also]
+# Set up [Linux Envirnment similar for Windows also]
 
 ## Note : Do not forget to change the webdrivers & profile path in the script
+
+<img width="1919" height="950" alt="Screenshot From 2026-05-19 01-24-10" src="https://github.com/user-attachments/assets/8c1aca93-3605-421f-a992-2088f4ace11c" />
 
 # ChromeDrivers
 
